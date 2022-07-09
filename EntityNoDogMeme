@@ -109,4 +109,4 @@ do
     end
 end
 
-return entity
+if not (identifyexecutor and identifyexecutor():find("Arceus")) then return entity end
